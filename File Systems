@@ -1,0 +1,10 @@
+Q1. What are the advantages of DBMS over traditional file-based systems? 
+Sol.
+1.Data redundancy and inconsistency 
+2. Difficulty in accessing data 
+3. Data isolation – multiple files and formats 
+4. Integrity problems 
+5. Atomicity of updates 
+6. Concurrent access by multiple users 
+7. Security problems 
+-----------------------------------------------------------------------------------

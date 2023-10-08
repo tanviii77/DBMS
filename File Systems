@@ -7,4 +7,39 @@ Sol.
 5. Atomicity of updates 
 6. Concurrent access by multiple users 
 7. Security problems 
------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2. Explain various keys in DBMS
+Sol.
+1. Candidate Key: The minimal set of attributes that can uniquely identify a tuple is known as a candidate key. 
+It is a minimal super key.
+It must contain unique values.
+It can contain NULL values.
+
+2. Primary Key: There can be more than one candidate key in relation out of which one can be chosen as the primary key.
+It is a unique key.
+It can identify only one tuple (a record) at a time.
+It has no duplicate values, it has unique values.
+It cannot be NULL.
+
+3. Super Key: The set of attributes that can uniquely identify a tuple is known as Super Key. A super key is a group of single or multiple keys that identifies rows in a table. It supports NULL values. 
+A candidate key is a super key but vice versa is not true.
+Super Key values may also be NULL.
+
+4. Alternate Key: The candidate key other than the primary key is called an alternate key.
+All the keys which are not primary keys are called alternate keys.
+It is a secondary key.
+
+5. Foreign Key: If an attribute can only take the values which are present as values of some other attribute, it will be a foreign key to the attribute to which it refers. 
+It is a key it acts as a primary key in one table and it acts as 
+secondary key in another table.
+It combines two or more relations (tables) at a time.
+They act as a cross-reference between the tables.
+
+6. Composite Key: Sometimes, a table might not have a single column/attribute that uniquely identifies all the records of a table. To uniquely identify rows of a table, a combination of two or more columns/attributes can be used.
+It acts as a primary key if there is no primary key in a table
+Two or more attributes are used together to make a composite key.
+
+7. Unique Key: Unique Keys are the keys that define the record uniquely in the table. It is different from Primary Keys, as Unique Key can contain one NULL value but Primary Key does not contain any NULL values.
+
+

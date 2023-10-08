@@ -1,4 +1,4 @@
-Q1. Explain various keys in DBMS
+Q1. Explain various keys in DBMS?
 Sol.
 1. Candidate Key: The minimal set of attributes that can uniquely identify a tuple is known as a candidate key. 
 It is a minimal super key.
@@ -31,4 +31,16 @@ Two or more attributes are used together to make a composite key.
 
 7. Unique Key: Unique Keys are the keys that define the record uniquely in the table. It is different from Primary Keys, as Unique Key can contain one NULL value but Primary Key does not contain any NULL values.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Q2.Why keys are necessary for DBMS?
+Sol.
+Keys are one of the important aspects of DBMS. Keys help us to find the tuples(rows) uniquely in the table. It is also used in developing various relations amongst columns or tables of the database.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.3: What is Artificial Key?
+sol.
+Artificial Keys are the keys that are used when no attributes contain all the properties of the Primary Key or if the Primary key is very large and complex.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
